@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 2px solid lime; 
+    text-transform: capitalize;
+    color: white;
+}
+:root{
+    --coloreSfondo:white;
+}
+
+
+/* contenitore header */
+.menu-navigazione {
+    background-color: #3161e0;
+    height: 400px;
+    width: 100%;
+    
+
+}
+/* contenitore con all'iterno logo/menu/accedi */
+.contenitore{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 30px;
+    gap: 10px;
+
+}
+
+/* contenitore del menu di navigazione */
+.comune {
+    background-color: white;
+    
+}
+/* contenitore logo */
+.logo{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.logo span{
+    color: black;
+}
+
+.logo img{
+    height: 47px;
+    width: 40px;
+    background-color: black;
+    display: block;
+}
+
+/* menu ul di navigazione */
+.menu{
+    height: 50px;
+    width: 600px;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.menu ul li{
+    list-style-type: none;
+    background-color: chocolate;
+    height:40px ;
+    width: 80px;
+}
+/* tastoaccedi  */
+.accedi{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 50px;
+    width: 100px;
+}
+
+.accedi button{
+    background-color: black;
+    height: 50px;
+    width: 80px;
+    align-content: center;
+    
+}
+
+/* contenitore testo e bottoni  */
+
+.text{
+    background-color: white;
+    height: 250px;
+    width: 50%;
+    margin: 20px auto 0px;
+    display: flex;
+    flex-direction: column; 
+    align-content: center;
+    gap: 10px;
+}
+/* titolo */
+.text h1{
+    background-color:burlywood;
+    height: 60px;
+    width: 60%;
+    align-self: center;
+    justify-content: flex-start;
+   
+}
+/* paragrafo */
+.text p{
+    background-color: brown;
+    height: 100px;
+    width: 60%;
+    align-self: center;
+}
+/* contenitore bottoni */
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.text button{
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+    align-self: center;
+}
+
+#tasto1{
+    height: 50px;
+    width: 120px;
+}
+#tasto2{
+    height: 50px;
+    width: 200px;
+}
