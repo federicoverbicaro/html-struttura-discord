@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 2px solid lime; 
+     border: 1px solid lime;  
     text-transform: capitalize;
     color: white;
 }
@@ -16,6 +16,9 @@
     background-color: #3161e0;
     height: 400px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     
 
 }
@@ -24,8 +27,6 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
-    margin-top: 30px;
     gap: 10px;
 
 }
@@ -67,6 +68,7 @@
 
 
 .menu ul li{
+    margin-top: 5px;
     list-style-type: none;
     background-color: chocolate;
     height:40px ;
@@ -98,7 +100,6 @@
     margin: 20px auto 0px;
     display: flex;
     flex-direction: column; 
-    align-content: center;
     gap: 10px;
 }
 /* titolo */
@@ -107,7 +108,6 @@
     height: 60px;
     width: 60%;
     align-self: center;
-    justify-content: flex-start;
    
 }
 /* paragrafo */
